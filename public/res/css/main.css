@@ -1,0 +1,31 @@
+.topnav {
+    background-color: #23282B;
+    padding: 15px;
+    height: 16px;
+}
+.topnav a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: auto;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+.active{
+    background-color: transparent;
+    color: white;
+}
+button{
+    border-radius: 50px;
+    background: #f1dfdf;
+    box-shadow:  5px 5px 15px #cdbebe,
+    -5px -5px 40px #ffffff;
+}
+body{
+    background-color: #23282B;
+}
+.container {
+    width: 100%;
+    max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+    padding: 0 15px;
+    margin: 0 auto;
+}
